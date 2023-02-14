@@ -1,0 +1,217 @@
+/* Table media quries*/
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .container {
+    max-width: 850px;
+    width: 100%;
+  }
+  .btn3 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .right-logo {
+    margin-right: 93px;
+  }
+
+  .item img {
+    margin-left: 51px;
+  }
+
+  .list-item {
+    display: none;
+  }
+  .btn {
+    justify-content: center;
+  }
+
+  .text {
+    padding: 31px;
+
+    h1 {
+      font-size: 48px;
+      line-height: 60px;
+    }
+
+    p {
+      margin-top: 0px;
+    }
+  }
+
+  .image {
+    margin-top: 96px;
+    /* margin-right: 175px;*/
+  }
+
+  .icon img {
+    margin-left: 49px;
+  }
+  .next {
+    padding: 30px;
+  }
+
+  .real {
+    max-width: 650px;
+    width: 100%;
+    h1 {
+      font-size: 36px;
+      margin-left: 0px;
+    }
+  }
+
+  .cards {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .second {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .list {
+    flex-wrap: wrap;
+    gap: 26px;
+  }
+
+  .heading h1 {
+    font-size: 36px;
+  }
+
+  .heading p {
+    font-size: 18px;
+    padding: 18px;
+  }
+
+  .pargraphs {
+    gap: 0px;
+    justify-content: space-evenly;
+  }
+
+  .box {
+    max-width: 347px;
+  }
+
+  .boxe1 {
+    width: 544px;
+    margin-top: 81px;
+    height: 298px;
+  }
+
+  .Tools {
+    justify-content: center;
+    margin-top: 0px;
+  }
+
+  .boxe2 {
+    width: 544px;
+    height: 284px;
+  }
+
+  .years {
+    align-items: center;
+  }
+
+  .boxe3 {
+    width: 544px;
+    height: 261px;
+  }
+
+  .least {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .Tools {
+    justify-content: center;
+  }
+
+  .years h1 {
+    font-size: 36px;
+    height: 60px;
+  }
+
+  .lines {
+    width: 100%;
+    margin-top: 33px;
+    margin-left: 124px;
+  }
+
+  .phase {
+    justify-content: center;
+  }
+
+  .easy {
+    max-width: 328px;
+    margin-top: 81px;
+    margin-bottom: 81px;
+  }
+
+  .tools {
+    justify-content: center;
+  }
+
+  .easy h1 {
+    height: 99px;
+    font-size: 31px;
+    line-height: 45px;
+  }
+
+  .logos {
+    margin-left: 20px;
+    margin-bottom: 100px;
+    margin-top: 81px;
+  }
+
+  .textsecond {
+    margin-top: 80px;
+  }
+
+  .textsecond p {
+    padding: 12px;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    padding: 12px;
+    margin-top: 8px;
+    line-height: 30px;
+  }
+
+  .textsecond h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+  }
+
+  .btn-section {
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .box p {
+    padding: 19px;
+  }
+
+  .secondimge {
+    width: 870px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #img2 {
+    margin-top: 0px;
+  }
+
+  .end {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .secondleft {
+    flex-wrap: wrap;
+  }
+  .phase {
+    justify-content: center;
+  }
+}

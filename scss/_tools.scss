@@ -1,0 +1,88 @@
+.Tools {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 81px;
+  @media screen and (max-width: $mediam-screen) and (min-width: $small-screen) {
+    justify-content: center;
+    margin-top: 0px;
+  }
+  @media screen and (max-width: $small-screen) and (min-width: $x-small-screen) {
+    justify-content: center;
+  }
+
+  .easy {
+    max-width: 449px;
+    margin-bottom: 44px;
+    @media screen and (max-width: $mediam-screen) and (min-width: $small-screen) {
+      max-width: 328px;
+      margin-top: 81px;
+    }
+
+    h1 {
+      height: 120px;
+      font-size: 48px;
+      line-height: 60px;
+      @media screen and (max-width: $mediam-screen) and (min-width: $small-screen) {
+        height: 99px;
+        font-size: 31px;
+        line-height: 45px;
+      }
+      @media screen and (max-width: $small-screen) and (min-width: $x-small-screen) {
+        font-size: 26px;
+        padding: 15px;
+        height: 60px;
+      }
+    }
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 28px;
+    color: $heading-color;
+    padding: 17px;
+  }
+}
+
+.logos {
+  margin-bottom: 124px;
+  padding: 15px;
+  border-bottom-right-radius: 190px;
+  border-bottom-left-radius: 190px;
+  margin-left: 138px;
+  background-color: #ede9fe;
+  @media screen and (max-width: $mediam-screen) and (min-width: $small-screen) {
+    margin-left: 0px;
+  }
+  @media screen and (max-width: $small-screen) and (min-width: $x-small-screen) {
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+
+  .row1 {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 33px;
+    @media screen and (max-width: $small-screen) and (min-width: $x-small-screen) {
+      gap: 0px;
+    }
+
+    img {
+      // @include row();
+    }
+  }
+
+  .row2 {
+    @extend .row1;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    @media screen and (max-width: $small-screen) and (min-width: $x-small-screen) {
+      gap: 0px;
+    }
+    img {
+      // @include row();
+    }
+  }
+}

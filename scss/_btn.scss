@@ -1,0 +1,98 @@
+.container-third {
+  margin: 0 auto;
+  background-color: #1db5be;
+
+  .secondleft {
+    display: flex;
+    @media screen and (max-width: $mediam-screen) and (min-width: $small-screen) {
+      flex-wrap: wrap;
+    }
+    @media screen and (max-width: $small-screen) and (min-width: $x-small-screen) {
+      flex-wrap: wrap;
+      margin-top: 55px;
+    }
+
+    .textsecond {
+      margin-top: 129px;
+      flex-direction: column;
+      @media screen and (max-width: $mediam-screen) and (min-width: $small-screen) {
+        margin-top: 80px;
+      }
+      @media screen and (max-width: $small-screen) and (min-width: $x-small-screen) {
+        margin-top: 30px;
+        padding: 30px;
+      }
+
+      h1 {
+        font-size: 25px;
+        @media screen and (max-width: $mediam-screen) and (min-width: $small-screen) {
+          display: flex;
+          justify-content: center;
+          font-size: 30px;
+        }
+      }
+      p {
+        margin-top: 12px;
+        @media screen and (max-width: $mediam-screen) and (min-width: $small-screen) {
+          padding: 12px;
+          text-align: center;
+          font-size: 18px;
+          display: flex;
+          padding: 12px;
+          margin-top: 8px;
+          line-height: 30px;
+        }
+      }
+    }
+  }
+  .btn-section {
+    font-size: 18px;
+    line-height: 60px;
+    margin-top: 48px;
+    @media screen and (max-width: $mediam-screen) and (min-width: $small-screen) {
+      gap: 10px;
+      display: flex;
+      justify-content: center;
+    }
+    @media screen and (max-width: $small-screen) and (min-width: $x-small-screen) {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+.btn3 {
+  background: none;
+  border: none;
+  @media screen and (max-width: $mediam-screen) and (min-width: $small-screen) {
+    display: flex;
+    justify-content: center;
+  }
+  @media screen and (max-width: $small-screen) and (min-width: $x-small-screen) {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+  }
+}
+
+.secondimge {
+  display: flex;
+  @media screen and (max-width: $mediam-screen) and (min-width: $small-screen) {
+    width: 870px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  @media screen and (max-width: $small-screen) and (min-width: $x-small-screen) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #img2 {
+    margin-top: 224px;
+    @media screen and (max-width: $mediam-screen) and (min-width: $small-screen) {
+      margin-top: 0px;
+    }
+    @media screen and (max-width: $small-screen) and (min-width: $x-small-screen) {
+      margin-top: 9px;
+    }
+  }
+}

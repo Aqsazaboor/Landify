@@ -1,0 +1,56 @@
+.container {
+  @media screen and (max-width: $mediam-screen) and (min-width: $small-screen) {
+    max-width: 850px;
+    width: 100%;
+  }
+}
+
+.bg-img {
+  background-image: url("/images/Background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 26px;
+  justify-content: space-between;
+
+  .item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    img {
+      @media screen and (max-width: $mediam-screen) and (min-width: $small-screen) {
+        padding-left: 30px;
+      }
+      @media screen and (max-width: $small-screen) and (min-width: $x-small-screen) {
+        padding: 30px;
+      }
+    }
+  }
+}
+
+.right-logo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  @media screen and (max-width: $mediam-screen) and (min-width: $small-screen) {
+    padding-right: 37px;
+  }
+  @media screen and (max-width: $small-screen) and (min-width: $x-small-screen) {
+    display: none;
+  }
+}
+
+.list-item {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 30px;
+  gap: 20px;
+  list-style: none;
+  @media screen and (max-width: $mediam-screen) and (min-width: $x-small-screen) {
+    display: none;
+  }
+}

@@ -1,0 +1,22 @@
+@import "config";
+@import "header";
+@import "second";
+@import "box";
+@import "cards";
+@import "btn";
+@import "tools";
+@import "years";
+@import "footer";
+@import "list";
+
+body {
+  font-family: "Inter", sans-serif;
+}
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  @media screen and (max-width: $small-screen) and (min-width: $x-small-screen) {
+    max-width: 500px;
+    width: 100%;
+  }
+}

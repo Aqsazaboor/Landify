@@ -1,0 +1,81 @@
+.next {
+  display: flex;
+  align-items: center;
+  @media screen and (max-width: $mediam-screen) and (min-width: $small-screen) {
+    padding: 31px;
+  }
+  @media screen and (max-width: $small-screen) and (min-width: $x-small-screen) {
+    padding: 30px;
+    flex-wrap: wrap;
+  }
+
+  .btn {
+    margin-top: 32px;
+    gap: 12px;
+    display: flex;
+    @media screen and (max-width: $mediam-screen) and (min-width: $small-screen) {
+      justify-content: center;
+    }
+  }
+
+  .text {
+    @media screen and (max-width: $mediam-screen) and (min-width: $small-screen) {
+      padding: 31px;
+    }
+  }
+
+  .btn1 {
+    padding: 16px 24px;
+    border: none;
+    cursor: pointer;
+    width: 138px;
+    height: 56px;
+    align-items: center;
+    background-color: #7c3aed;
+    border-radius: 8px;
+    color: $secondary-color;
+  }
+
+  .btn2 {
+    @extend .btn1;
+    width: 174px;
+    height: 56px;
+    display: flex;
+    background-color: $secondary-color;
+    justify-content: space-between;
+    color: $primary-color;
+  }
+
+  h1 {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 72px;
+
+    @media screen and (max-width: $mediam-screen) and (min-width: $small-screen) {
+      font-size: 48px;
+      line-height: 60px;
+    }
+    @media screen and (max-width: $small-screen) and (min-width: $x-small-screen) {
+      font-size: 36px;
+      line-height: 52px;
+    }
+  }
+
+  p {
+    margin-top: 16px;
+    color: $primary-color;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+
+    @media screen and (max-width: $mediam-screen) and (min-width: $small-screen) {
+      margin-top: 0px;
+    }
+  }
+  .image {
+    margin-top: 96px;
+    @media screen and (max-width: $small-screen) and (min-width: $x-small-screen) {
+      margin-top: 30px;
+    }
+  }
+}

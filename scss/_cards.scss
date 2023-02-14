@@ -1,0 +1,174 @@
+.container-center {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #d5fafc;
+}
+.icon {
+  @extend.container-center;
+  @media screen and (max-width: $small-screen) and (min-width: $x-small-screen) {
+    width: 312px;
+  }
+
+  img {
+    margin-top: 44px;
+    display: flex;
+    width: 142px;
+    height: 116px;
+    @media screen and (max-width: $mediam-screen) and (min-width: $small-screen) {
+      padding-left: 25px;
+    }
+  }
+}
+
+.real {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 8px;
+  width: 487px;
+  margin-left: 93px;
+  @media screen and (max-width: $mediam-screen) and (min-width: $small-screen) {
+    max-width: 650px;
+    width: 100%;
+  }
+  @media screen and (max-width: $small-screen) and (min-width: $x-small-screen) {
+    text-align: center;
+    padding: 24px;
+    margin-left: 0px;
+    width: 100%;
+  }
+
+  h1 {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: -0.025em;
+    color: $heading-color;
+    margin-top: -60px;
+    @media screen and (max-width: $mediam-screen) and (min-width: $small-screen) {
+      font-size: 36px;
+      margin-left: 0px;
+    }
+    @media screen and (max-width: $small-screen) and (min-width: $x-small-screen) {
+      font-size: 36px;
+    }
+  }
+
+  .real p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+.cards {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin-top: -68px;
+  @media screen and (max-width: $mediam-screen) and (min-width: $small-screen) {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 0px;
+  }
+  @media screen and (max-width: $small-screen) and (min-width: $x-small-screen) {
+    justify-content: space-around;
+
+    padding: 19px;
+  }
+
+  .boxe1 {
+    padding: 22px;
+    position: relative;
+    background: $secondary-color;
+    box-shadow: 0px 4px 8px -2px rgba(17, 24, 39, 0.1),
+      0px 2px 4px -2px rgba(17, 24, 39, 0.06);
+    border-radius: 8px;
+    width: 447px;
+    height: 304px;
+    @media screen and (max-width: $mediam-screen) and (min-width: $small-screen) {
+      margin-top: 81px;
+    }
+    @media screen and (max-width: $small-screen) and (min-width: $x-small-screen) {
+      margin-top: 88px;
+      width: 331px;
+      height: 387px;
+    }
+  }
+
+  .mark {
+    width: 16px;
+    height: 13px;
+    display: flex;
+    position: absolute;
+    top: 87px;
+  }
+
+  p {
+    @include bx-font();
+  }
+}
+
+.boxe2 {
+  @extend.boxe1;
+  width: 425px;
+  height: 351px;
+  @media screen and (max-width: $small-screen) and (min-width: $x-small-screen) {
+    width: 336px;
+    height: 370px;
+  }
+
+  .mark1 {
+    @extend .mark;
+    position: relative;
+    top: 33px;
+    left: 1px;
+  }
+
+  .boxe2 p {
+    @include bx-font();
+    @media screen and (max-width: $small-screen) and (min-width: $x-small-screen) {
+      width: 336px;
+      height: 295px;
+    }
+  }
+}
+
+.boxe3 {
+  @extend .boxe1;
+  bottom: 54px;
+  width: 384px;
+  height: 256px;
+  @media screen and (max-width: $mediam-screen) and (min-width: $small-screen) {
+    width: 500px;
+    height: 261px;
+  }
+  .mark2 {
+    @extend .mark;
+    top: 40px;
+    position: relative;
+  }
+
+  p {
+    @include bx-font();
+  }
+}
+.hubs {
+  width: 112px;
+  height: 32px;
+}
+
+.twobox {
+  gap: 93px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  @media screen and (max-width: $mediam-screen) and (min-width: $small-screen) {
+    gap: 0px;
+  }
+  @media screen and (max-width: $small-screen) and (min-width: $x-small-screen) {
+    padding: 12px;
+    align-items: center;
+  }
+}
